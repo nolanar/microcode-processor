@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/aran/programming/vhdl/project2/microcode_computer_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="microcode_computer_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/microcode_computer_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">reset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/microcode_computer_tb/reset_pc" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_pc</obj_property>
+         <obj_property name="ObjectShortName">reset_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/reset_car" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_car</obj_property>
+         <obj_property name="ObjectShortName">reset_car</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/reset_val_pc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_val_pc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reset_val_pc[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/reset_val_car" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_val_car[7:0]</obj_property>
+         <obj_property name="ObjectShortName">reset_val_car[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_q[0:8]</obj_property>
+      <obj_property name="ObjectShortName">reg_q[0:8]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[1]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[2]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[3]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[4]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[5]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[6]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[7]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/reg/reg_q[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">reg_q[8]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/microcode_computer_tb/uut/PC/addr_offset" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addr_offset[15:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_offset[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/PC/pl" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pl</obj_property>
+         <obj_property name="ObjectShortName">pl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/PC/pi" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pi</obj_property>
+         <obj_property name="ObjectShortName">pi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/PC/z" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">z[15:0]</obj_property>
+         <obj_property name="ObjectShortName">z[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="label">z[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">instruction reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group56" type="group">
+         <obj_property name="label">IR in</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/microcode_computer_tb/uut/inst_reg/ir" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ir[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ir[15:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/microcode_computer_tb/uut/inst_reg/il" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">il</obj_property>
+            <obj_property name="ObjectShortName">il</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus29" type="vbus" db_ref_id="1">
+         <obj_property name="label">IR out</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <wvobject fp_name="/microcode_computer_tb/uut/inst_reg/opcode" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">opcode[7:0]</obj_property>
+            <obj_property name="ObjectShortName">opcode[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/microcode_computer_tb/uut/inst_reg/dr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">dr[2:0]</obj_property>
+            <obj_property name="ObjectShortName">dr[2:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/microcode_computer_tb/uut/inst_reg/sa" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sa[2:0]</obj_property>
+            <obj_property name="ObjectShortName">sa[2:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/microcode_computer_tb/uut/inst_reg/sb" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sb[2:0]</obj_property>
+            <obj_property name="ObjectShortName">sb[2:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">CAR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/microcode_computer_tb/uut/CAR/car_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">car_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">car_in[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/CAR/sel" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/CAR/car_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">car_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">car_out[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group71" type="group">
+         <obj_property name="label">memory in</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/microcode_computer_tb/uut/mem/address" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">address[15:0]</obj_property>
+            <obj_property name="ObjectShortName">address[15:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/microcode_computer_tb/uut/mem/write_data" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">write_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">write_data[15:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/microcode_computer_tb/uut/mem/memwrite" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">memwrite</obj_property>
+            <obj_property name="ObjectShortName">memwrite</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/mem/read_data" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">read_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="label">read_data[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">status flag reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/microcode_computer_tb/uut/SFR/load" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/SFR/v_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">v_out</obj_property>
+         <obj_property name="ObjectShortName">v_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/SFR/c_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">c_out</obj_property>
+         <obj_property name="ObjectShortName">c_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/SFR/n_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">n_out</obj_property>
+         <obj_property name="ObjectShortName">n_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/SFR/z_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">z_out</obj_property>
+         <obj_property name="ObjectShortName">z_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="VirtualBus" type="vbus" db_ref_id="1">
+      <obj_property name="label">Control memory out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Reversed">true</obj_property>
+      <obj_property name="ElementShortName">VirtualBus[27:0]</obj_property>
+      <obj_property name="ObjectShortName">VirtualBus[27:0]</obj_property>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/mw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mw</obj_property>
+         <obj_property name="ObjectShortName">mw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/mm" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mm</obj_property>
+         <obj_property name="ObjectShortName">mm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/rw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rw</obj_property>
+         <obj_property name="ObjectShortName">rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/md" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">md</obj_property>
+         <obj_property name="ObjectShortName">md</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/fs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fs[3:0]</obj_property>
+         <obj_property name="ObjectShortName">fs[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/mb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mb</obj_property>
+         <obj_property name="ObjectShortName">mb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/tb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tb</obj_property>
+         <obj_property name="ObjectShortName">tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/ta" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ta</obj_property>
+         <obj_property name="ObjectShortName">ta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/td" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">td</obj_property>
+         <obj_property name="ObjectShortName">td</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/pl" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pl</obj_property>
+         <obj_property name="ObjectShortName">pl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/pi" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pi</obj_property>
+         <obj_property name="ObjectShortName">pi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/il" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">il</obj_property>
+         <obj_property name="ObjectShortName">il</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/sw" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sw</obj_property>
+         <obj_property name="ObjectShortName">sw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/mc" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mc</obj_property>
+         <obj_property name="ObjectShortName">mc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/ms" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ms[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ms[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/microcode_computer_tb/uut/ctrl_mem/na" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">na[7:0]</obj_property>
+         <obj_property name="ObjectShortName">na[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,13 @@
+#Exclude all
+*
+!*/
+!.gitignore
+
+#Source Files
+!*.vhd
+
+#Simulation
+!*.wcfg
+
+#Project file
+!*.xise
